@@ -12,18 +12,18 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink className={({isActive}) => (isActive ? 'active nav-link' : 'nav-link')} to="/">Home</NavLink>
+                            <NavLink className={({isActive}) => (isActive ? 'active nav-link' : 'nav-link')} to="projects/">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className={({isActive}) => (isActive ? 'active nav-link' : 'nav-link')} to="/web">Web Tecnologies</NavLink>
+                            <NavLink className={({isActive}) => (isActive ? 'active nav-link' : 'nav-link')} to="projects/web">Web Tecnologies</NavLink>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Frameworks
                             </a>
                             <ul className="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdown">
-                                <li><NavLink className={({isActive}) => (isActive ? 'active nav-link' : 'nav-link')} to="/frameworks/javascript">JavaScript</NavLink></li>
-                                <li><NavLink className={({isActive}) => (isActive ? 'active nav-link' : 'nav-link')} to="/frameworks/php">PHP</NavLink></li>
+                                <li><NavLink className={({isActive}) => (isActive ? 'active nav-link' : 'nav-link')} to="projects/frameworks/javascript">JavaScript</NavLink></li>
+                                <li><NavLink className={({isActive}) => (isActive ? 'active nav-link' : 'nav-link')} to="projects/frameworks/php">PHP</NavLink></li>
                             </ul>
                         </li>
                     </ul>

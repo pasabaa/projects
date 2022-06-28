@@ -13,10 +13,10 @@ export default function App() {
         <Navbar/>
 
         <Routes>
-            <Route path="/" element={<HomePage/>}/>
-            <Route path="/web" element={<WebPage/>}></Route>
-            <Route path="/frameworks/javascript" element={<JavaScriptPage/>}/>
-            <Route path="/frameworks/php" element={<PhpPage/>}/>
+            <Route path="projects/" element={<HomePage/>}/>
+            <Route path="projects/web" element={<WebPage/>}></Route>
+            <Route path="projects/frameworks/javascript" element={<JavaScriptPage/>}/>
+            <Route path="projects/frameworks/php" element={<PhpPage/>}/>
         </Routes>
 
     </BrowserRouter>
