@@ -6,7 +6,7 @@ export default function HomePage() {
         <div className="row justify-content-between">
             <div className="col-lg-8 col-12">
                 <h1 className="fw-bold">Main Projects</h1>
-                <div className="row justify-content-between gap-3">
+                <div className="row justify-content-around gap-3">
 
                     <div className="card border-0 p-0">
                         <div className="card-body d-flex flex-column justify-content-around">

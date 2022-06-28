@@ -5,7 +5,7 @@ export default function WebPage() {
           <div className="col-12">
               <h1 className="fw-light">Web Tecnologies</h1>
               <h3 className="fw-bold">HTML, CSS and JavaScript Projects</h3>
-              <div className="row justify-content-between gap-3">
+              <div className="row justify-content-around gap-3">
                   <div className="card border-0 p-0">
                       <div className="card-body d-flex flex-column justify-content-around">
                           <div className='m-0'>
