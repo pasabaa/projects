@@ -5,37 +5,20 @@ export default function HomePage() {
     <div className="container p-4">
       <div className="row justify-content-between gap-4">
         <div className="col-lg-8 col-12">
-          <div className="card border-0">
-            <img src={process.env.PUBLIC_URL + "/img/projects/task-with-react.png" } className="card-img" alt="..." />
-            <div className="card-img-overlay bg-overlay d-flex align-items-center justify-content-center">
-              <div className="text-start">
-                <h1 className="display-4 fw-bold">Last project</h1>
-                <h4>Task with React</h4>
-                <p className="fs-sm">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-8 col-12">
-          <h1 className="fw-bold">Main Projects</h1>
+          <h1 className="fw-bold">Proyectos Principales</h1>
           <div className="row justify-content-around gap-3 mt-4 py-4">
             <div className="card border-0 p-0">
               <div className="card-body d-flex flex-column justify-content-around p-0">
                 <div className='m-0'>
                   <h6 className='fw-bold'>Timeline Creator</h6>
-                  <span className='badge text-bg-green'>Online</span>
+                  <span className='badge text-bg-green'>En Línea</span>
                 </div>
 
                 <img className="rounded img-fluid my-3" src={process.env.PUBLIC_URL + "/img/projects/timeline.png" }
                   alt="" />
-                <p className='fs-sm text-muted m-0'>Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Provident dolor quisquam velit veritatis distinctio, reiciendis maiores.</p>
+                <p className='fs-sm text-muted m-0'>Es una aplicación para crear simples líneas del tiempo, con títulos, eventos y fechas, teniendo distintos tipos de personalización.</p>
                 <hr className='m-0 my-2' />
-                <p className='fs-sm fw-bold'>Learn More</p>
+                <p className='fs-sm fw-bold'>Saber más</p>
                 <div className="d-flex gap-2">
                   <a rel="noreferrer noopener" target={'_blank'} className='btn btn-sm fs-sm text-bg-green rounded-pill'
                     href="https://pasabaa.github.io/timeline-vanilla/"><i className='bi bi-globe'></i></a>
@@ -48,14 +31,13 @@ export default function HomePage() {
               <div className="card-body d-flex flex-column justify-content-around">
                 <div className='m-0'>
                   <h6 className='fw-bold'>Game with JavaScript</h6>
-                  <span className='badge text-bg-red'>In Process</span>
+                  <span className='badge text-bg-red'>En Proceso</span>
                 </div>
                 <img className="rounded img-fluid my-3" src={process.env.PUBLIC_URL + "/img/projects/game-js.png" }
                   alt="" />
-                <p className='fs-sm text-muted m-0'>Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Provident dolor quisquam velit veritatis distinctio, reiciendis maiores.</p>
+                <p className='fs-sm text-muted m-0'>Juego desarrollado enteramente con JavaScript, es de género Clicker, teniendo distintos elementos en la jugabilidad.</p>
                 <hr className='m-0 my-2' />
-                <p className='fs-sm fw-bold'>Learn More</p>
+                <p className='fs-sm fw-bold'>Saber Más</p>
                 <div className="d-flex gap-2">
                   <a rel="noreferrer noopener" target={'_blank'} className='btn btn-sm fs-sm text-bg-red rounded-pill'
                     href="https://pasabaa.github.io/clicker-game/"><i className='bi bi-globe'></i></a>
@@ -67,16 +49,15 @@ export default function HomePage() {
             <div className="card border-0 p-0">
               <div className="card-body d-flex flex-column justify-content-around">
                 <div className='m-0'>
-                  <h6 className='fw-bold'>Google Message Generator</h6>
-                  <span className='badge text-bg-green'>Online</span>
+                  <h6 className='fw-bold'>Message Generator</h6>
+                  <span className='badge text-bg-green'>En Línea</span>
                 </div>
 
                 <img className="rounded img-fluid my-3" src={process.env.PUBLIC_URL
                   + "/img/projects/message-generator.png" } alt="" />
-                <p className='fs-sm text-muted m-0'>Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Provident dolor quisquam velit veritatis distinctio, reiciendis maiores.</p>
+                <p className='fs-sm text-muted m-0'>Un generador de mensajes con interfaz de la aplicación de Google Mensajes, se tiene pensado en agregar más interfaces en un futuro.</p>
                 <hr className='m-0 my-2' />
-                <p className='fs-sm fw-bold'>Learn More</p>
+                <p className='fs-sm fw-bold'>Saber Más</p>
                 <div className="d-flex gap-2">
                   <a rel="noreferrer noopener" target={'_blank'} className='btn btn-sm fs-sm text-bg-green rounded-pill'
                     href="https://pasabaa.github.io/message-generator/"><i className='bi bi-globe'></i></a>

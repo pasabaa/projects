@@ -13,13 +13,9 @@ export default function JavaScriptPage() {
                                 <span className="badge text-bg-green">Online</span>
                             </div>
 
-                            <img className="rounded img-fluid my-3" src={process.env.PUBLIC_URL + "/img/projects/crud-mongodb.png"}
+                            <img loading="lazy" className="rounded img-fluid my-3" src={process.env.PUBLIC_URL + "/img/projects/crud-mongodb.png"}
                                 alt="" />
-                            <p className="fs-sm text-muted m-0">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Provident dolor quisquam velit veritatis distinctio,
-                                reiciendis maiores.
-                            </p>
+                            <p className="fs-sm text-muted m-0">Es una aplicación To Do List, pero con las diferentes características de un CRUD.</p>
                             <hr className="m-0 my-2" />
                             <p className="fs-sm fw-bold">Learn More</p>
                             <div className="d-flex gap-2">
@@ -40,13 +36,9 @@ export default function JavaScriptPage() {
                                 <span className="badge text-bg-green">Online</span>
                             </div>
 
-                            <img className="rounded img-fluid my-3" src={process.env.PUBLIC_URL + "/img/projects/task-with-react.png"}
+                            <img loading="lazy" className="rounded img-fluid my-3" src={process.env.PUBLIC_URL + "/img/projects/task-with-react.png"}
                                 alt="" />
-                            <p className="fs-sm text-muted m-0">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Provident dolor quisquam velit veritatis distinctio,
-                                reiciendis maiores.
-                            </p>
+                            <p className="fs-sm text-muted m-0">Es una aplicación To Do List hecha en React.</p>
                             <hr className="m-0 my-2" />
                             <p className="fs-sm fw-bold">Learn More</p>
                             <div className="d-flex gap-2">

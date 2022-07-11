@@ -8,21 +8,25 @@ import WebPage from "./pages/web/WebPage";
 import Footer from "./components/footer/Footer";
 
 export default function App() {
+
   return (
-    <BrowserRouter>
-    
-        <Navbar/>
+    <div className="app">
+      <BrowserRouter>
+      
+      <Navbar/>
 
-        <Routes>
-            <Route path="projects/" element={<HomePage/>}/>
-            <Route path="projects/web" element={<WebPage/>}></Route>
-            <Route path="projects/frameworks/javascript" element={<JavaScriptPage/>}/>
-            <Route path="projects/frameworks/php" element={<PhpPage/>}/>
-        </Routes>
+      <Routes>
+          <Route path="projects/" element={<HomePage/>}/>
+          <Route path="projects/web" element={<WebPage/>}></Route>
+          <Route path="projects/frameworks/javascript" element={<JavaScriptPage/>}/>
+          <Route path="projects/frameworks/php" element={<PhpPage/>}/>
+      </Routes>
 
-        <Footer/>
+      <Footer/>
 
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
+
   )
 }
 

@@ -12,6 +12,10 @@
   max-width: 16rem;
 }
 
+.card-lg.card {
+  max-width: 18rem;
+}
+
 .text-bg-green {
   background-color: rgba(95, 248, 123, 0.1);
   color: rgb(95, 248, 123);
